@@ -1,0 +1,51 @@
+body
+{
+  align-self: column;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(45deg, #52cfee, #e73c7e, #00f500);
+  background-size: 700% 700%;
+  animation: gradiente 10s ease-in-out infinite;
+  height: 600px; }
+.Título
+{ 
+  font-size: 1cm;
+  color: white;
+  font-family: 'Barlow', sans-serif;
+  align-items: center;
+  text-align: center;
+  text-align: start;
+  text-shadow: 0 0 8px black ;
+  margin: 10px;
+} 
+.Subtítulo
+{
+  padding: 15px;
+  color: white;
+  font-family: 'Voces', cursive;
+  text-shadow: 0 0 8px black;
+  align-items: center;
+  border: 2px solid rgb(255, 255, 255); 
+  border-radius: 5px;
+  margin: 10px;
+}
+@keyframes gradiente
+{     
+0%  { 
+      background-position: 0% 50%; 
+    }     
+50% {
+      background-position: 100% 50%;
+    }
+100%{ 
+      background-position: 0% 50%;
+    }
+}
+.div
+{
+  display: flex;
+  position: center;
+  flex-direction: column;
+  align-self: center;
+}
